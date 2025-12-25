@@ -1,0 +1,42 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## NuGet
+*.nupkg
+**/packages/*
+!**/packages/build/
+
+## VS Code
+.vscode/
+
+## Visual Studio
+.vs/
+
+## Rider
+.idea/
+
+## Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+## Test Results
+[Tt]est[Rr]esult*/
+*.trx
+
+## Secrets
+*.pfx
+*.publishsettings
+appsettings.*.json
+!appsettings.json
+.mcp.json
